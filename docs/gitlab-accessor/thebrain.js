@@ -46,6 +46,7 @@ function getApiUrl(urlLoc, token){
 
 						var finalUrl = "https://" + domain + "/api/v4/projects/" + projectId + "/repository/files/" + filePath + "/raw?ref=" + branch + "&private_token=" + token;
 						setResult(finalUrl);
+						document.getElementById("submit").textContent = "Click to Convert Your Religion";
 						return;
 					}
 				}
