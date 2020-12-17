@@ -1,0 +1,53 @@
+body {
+	background-color: black;
+}
+
+.boring {
+	position: fixed;
+	text-align: center;
+	font-size: 21vw;
+	color: rgb(20, 20, 20);
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+}
+
+.frontandcenter {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+label {
+	color: white;
+	display: block;
+	text-align: center;
+}
+
+input[type=text], textarea {
+	width: 350px;
+	margin-bottom: 10px;
+}
+
+textarea {
+	height: 150px;
+}
+
+input[type=submit], button {
+	background-color: rgba(0,0,0,0);
+	text-decoration: none;
+	border: none;
+	width: 350px;
+	animation: ARGEEBEE 5s infinite;
+}
+
+@keyframes ARGEEBEE {
+	0% { color: red; }
+	25% { color: yellow; }
+	50% { color: blue; }
+	75% { color: purple; }
+	100% { color: red; }
+}

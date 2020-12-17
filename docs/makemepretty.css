@@ -1,0 +1,50 @@
+body {
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+
+.boring {
+	position: fixed;
+	text-align: center;
+	font-size: 21vw;
+	color: rgb(20, 20, 20);
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	z-index: -1;
+}
+
+.mainheader {
+	font-size: 4vw;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+h1 {
+	font-size: 3vw;
+}
+
+p {
+	font-size: 1vw;
+	margin-bottom: 10vh;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	animation: ARGEEBEE 5s infinite;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+@keyframes ARGEEBEE {
+	0% { color: red; }
+	25% { color: yellow; }
+	50% { color: blue; }
+	75% { color: purple; }
+	100% { color: red; }
+}

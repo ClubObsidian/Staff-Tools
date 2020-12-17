@@ -1,0 +1,6 @@
+{
+	"gitlab-accessor": {
+		"title": "Gitlab File Accessor",
+		"desc": "Converts a project file url into something useable for remote applications using access tokens!"
+	}
+}
