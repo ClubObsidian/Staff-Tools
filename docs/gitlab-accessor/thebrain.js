@@ -29,6 +29,7 @@ function getApiUrl(urlLoc, token){
 		filePath == ""
 	) {
 		setResult("Invalid URL!");
+		document.getElementById("submit").textContent = "Click to Convert Your Religion";
 		return false;
 	}
 
